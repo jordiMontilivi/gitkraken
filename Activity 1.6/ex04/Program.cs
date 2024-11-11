@@ -1,19 +1,24 @@
-﻿namespace ex03b
+﻿namespace ex04
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int inicial, final;
+            int cont, inicial, final;
             Console.Write("Escriu un valor inicial: ");
             inicial = Convert.ToInt32(Console.ReadLine());
             Console.Write("Escriu el valor final: ");
             final = Convert.ToInt32(Console.ReadLine());
 
-            for (; inicial <= final; inicial++)
+            for (cont = inicial ; cont <= final; cont++)
             {
-                Console.WriteLine(inicial);
+                if(!Multiple7(cont))
+                    Console.WriteLine(cont);
             }
+        }
+        static bool Multiple7(int valor)
+        {
+            return valor % 7 == 0;
         }
     }
 }

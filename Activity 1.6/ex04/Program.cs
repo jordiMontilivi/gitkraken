@@ -16,6 +16,7 @@
                     Console.WriteLine(cont);
             }
         }
+        //proves amb carles
         static bool Multiple7(int valor)
         {
             return valor % 7 == 0;

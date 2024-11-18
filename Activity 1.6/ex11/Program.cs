@@ -13,9 +13,11 @@
             bitllets = Convert.ToInt32(fitxer.ReadLine());
             for (int i = 0; i < bitllets; i++)
             {
+                //llegim una linia per saber si te BONUS o NO BONUS
                 linia = fitxer.ReadLine();
                 if (linia == "BONUS")
                 {
+                    //Acumulem el valor del bonus
                     sumaBonus += Convert.ToInt32(fitxer.ReadLine());
                     bonus++;
                 }

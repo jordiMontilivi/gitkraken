@@ -32,15 +32,14 @@
 13. Fer un programa que calcule el mínim comú múltiple de dos números. El mínim comú múltiple és el múltiple de tots dos més petit que hi hagi. Com a molt, el producte de tots dos ho serà.  
 ---
 14. Dir si un número és perfecte. Ho son els que la suma dels divisors excepte ell mateix coincideix amb el número.   
-    Per exemple 6 \= 1 \+ 2 \+ 3
+    Per exemple 6 \= 1 \+ 2 \+ 3  
     b. Calcula els 5 primers números perfectes.
 ---
 15. Fer un programa que llanci 1000000 de monedes (s’inventi 0 o 1\) i digui quin % de cares i creus ha tret.  
 ---
 16. Calcular
     | ![image1](https://github.com/user-attachments/assets/29e3b2fa-9252-4ad9-a230-81131b87e962) |
-    | :---- |
-    
+    | :---- |    
 ---
 17. Fer un programa que diga si un número és apilable: 
     Ho són el 0,1,3,6,10,15, 21, ...  (número anterior \+ iteració actual)
